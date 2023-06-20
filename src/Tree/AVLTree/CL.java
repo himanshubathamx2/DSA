@@ -7,6 +7,6 @@ public class CL
 		AVL avl = new AVL();
 		avl.insert(12);
 		avl.insert(34);
-		avl.levelOrder();//
+		avl.levelOrder();////
 	}
 }
