@@ -12,8 +12,7 @@ public class MaxProductOfTwoEle
 	 */ 
 	public static void main(String[] args)
 	{
-		int[] a =
-		{ 10, 60, 30, 40, 50 };
+		int[] a ={ 10, 60, 30, 40, 50 };
 		int a1[] = maxProduct(a);
 		System.out.println(a1[0]+"  "+a1[1]);
 	}
@@ -38,3 +37,5 @@ public class MaxProductOfTwoEle
 	 }
 
 }
+
+

@@ -2,20 +2,19 @@ package Recursion;
 
 public class Test
 {
-	public static void main(String[] args)
+	public static void m1()
 	{
-		System.out.println(pow(3,4));
-	}
-	public static int pow(int x, int y)
-	{
-		int pow=1;
-		if(y<1)
-			return 1;
-		else
+		int arr[] = new int[5];
+		for(int i=0;i<arr.length;i++)
 		{
-			return x*pow(x,y-1);
+			for(int j=i+1;j<arr.length; j++)
+			{
+				System.out.println(arr[i]+ " "+arr[j]);	
+			}
 		}
 	}
+	public static void main(String[] args)
+	{
+		m1();
+	}
 }
-
-//123

@@ -13,23 +13,21 @@ public class RotateMatrix90Degree_badApproach
 		
 		printMatrix(mt,m,n);
 		
-		 System.out.println("After rotating to 90 degree"); 
+	   System.out.println("After rotating to 90 degree"); 
        int mt_r[][]=new int[m][n];
        mt_r= rotate(mt,m,n);
 	}
 	
 	public static int[][] rotate(int[][] mt,int rows, int cols)
 	{
-		System.out.println("roteet");
-		for(int j=0;j<cols;j++)
+		for(int i=0;i<cols;i++)
 		{
-			for(int i=rows-1;i>=0;i--)
+			for(int j=rows-1;j>=0;j--)
 			{
-				System.out.print(mt[i][j]+" ");
+				System.out.print(mt[j][i]+"|");
 			}
 			System.out.println();
 		}
-		
 		return null;
 	}
 
@@ -39,7 +37,7 @@ public class RotateMatrix90Degree_badApproach
 		{
 			for(int j=0;j<cols;j++)
 			{
-				System.out.print(mt[i][j]+" ");
+				System.out.print(mt[i][j]+"|");
 			}
 			System.out.println();
 		}
