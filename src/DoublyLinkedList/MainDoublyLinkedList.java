@@ -1,6 +1,6 @@
 package DoublyLinkedList;
 
-class Main {
+class MainDoublyLinkedList {
   public static void main(String[] args) {
     DoublyLinkedList dll = new DoublyLinkedList();
     dll.createDLL(1);

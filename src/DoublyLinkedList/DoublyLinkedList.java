@@ -1,6 +1,5 @@
 package DoublyLinkedList;
 
-
 public class DoublyLinkedList {
   DoublyNode head;
   DoublyNode tail;
