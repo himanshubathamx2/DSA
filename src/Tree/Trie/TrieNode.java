@@ -8,6 +8,6 @@ public class TrieNode {
 
   public TrieNode() {
     children = new HashMap<>();
-    endOfString = false;
+    endOfString = false;//
   }
 }
