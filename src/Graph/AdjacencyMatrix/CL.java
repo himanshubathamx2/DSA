@@ -2,6 +2,7 @@ package Graph.AdjacencyMatrix;
 
 import java.util.ArrayList;
 
+
 public class CL
 {
 	public static void main(String[] args)
@@ -30,6 +31,35 @@ public class CL
 											//		  E: 0 1 0 1 0 
 //		g.bfs();//A B C D E
 		g.dfs();////A D E C B
+		
+		
+		
+		//topological
+		
+		
+		
+		//ssspp
+		System.out.println("ssspp sort");
+		ArrayList<GraphNode> nodeList1 = new ArrayList<GraphNode>();
+		nodeList1.add(new GraphNode("A", 0));
+		nodeList1.add(new GraphNode("B", 1));
+		nodeList1.add(new GraphNode("C", 2));
+		nodeList1.add(new GraphNode("D", 3));
+		nodeList1.add(new GraphNode("E", 4));
+		nodeList1.add(new GraphNode("F", 5));
+		nodeList1.add(new GraphNode("G", 6));
+		
+		Graph g1= new Graph(nodeList1);
+		g1.addUndirectedEdge(0, 1);
+		g1.addUndirectedEdge(0, 2);
+		g1.addUndirectedEdge(1, 3);
+		g1.addUndirectedEdge(1, 6);
+		g1.addUndirectedEdge(2, 3);
+		g1.addUndirectedEdge(2, 4);
+		g1.addUndirectedEdge(3, 5);
+		g1.addUndirectedEdge(4, 5);
+		g1.addUndirectedEdge(5, 6);
+		g1.BFSForSSSPP(nodeList1.get(0));
 		
 		
 	}
