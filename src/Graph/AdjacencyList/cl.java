@@ -28,7 +28,8 @@ public class cl
 											//		C: A -> D
 											//		D: A -> C -> E
 											//		E: B -> D
-		g.bfs();//A B C D E 
+//		g.bfs();//A B C D E 
+		g.dfs();//A D E C B
 
 
 	}
