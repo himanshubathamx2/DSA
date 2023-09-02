@@ -1,4 +1,5 @@
-package Graph.Dijkstra;
+package Graph.Floyd;
+
 import java.util.*;
 
 public class WeightedNode implements Comparable<WeightedNode> {

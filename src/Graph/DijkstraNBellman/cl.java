@@ -1,4 +1,4 @@
-package Graph.Dijkstra;
+package Graph.DijkstraNBellman;
 
 import java.util.ArrayList;
 
@@ -28,6 +28,10 @@ public class cl
 		
 		System.out.println("Djisktha from source A");
 		newGraph.dijkstra(nodeList.get(0));
+		
+		System.out.println("Bellman from source A");
+		newGraph.bellmanFord(nodeList.get(0));
+		
 		
 		
 	}
