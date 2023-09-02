@@ -31,7 +31,7 @@ public class MaxProductOfTwoEle
 				 proA[0]=a[i];
 				 proA[1]=a[j];
 				 }
-			 }
+			 }//
 		 }
 		 return proA;
 	 }
