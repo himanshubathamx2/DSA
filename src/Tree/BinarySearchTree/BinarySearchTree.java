@@ -47,8 +47,6 @@ public class BinarySearchTree {
     inOrder(node.left);
     System.out.print(node.value + " ");
     inOrder(node.right);
-
-
   }
 
   // PostOrder Traversal
